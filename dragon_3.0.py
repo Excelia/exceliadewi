@@ -1,5 +1,5 @@
 #name: Excelia Dewi
-#Version: 2.0
+#Version: 3.0
 #Date: 22 May 2013    
 #Program Description: Text Based Game, the user act as dragon warrior that has to save his dragon
 #                     from the evil witch that wants to destroy earth. The dragon warrior has the obligation
@@ -52,16 +52,20 @@ def jungleAndMountain():
     print('so he send his zombie army to eat your brain')
     print('in order to escape from the zombie you have to choose your way between jungle and mountain')
     pick_path =''
-        while pick_path !='3' and pick_path != '4':
+    
+    while pick_path !='3' and pick_path != '4':
             print('make your way 3=jungle and 4=mountain')
+            break
     pick_path = raw_input('')
     
-    if pick_path == "3"
+    if pick_path == "3":
         print('you run toward the deadliest jungle')
         junglePath()
-    elif pick_path == "4"
+    elif pick_path == "4":
     
-    return pick_path
+        return pick_path
+ 
+    
     
 
 def junglePath():
@@ -70,23 +74,18 @@ def junglePath():
     print('you feel that something following you')
     
     choose_action = ''
-    while choose_action != '3' and choose_action != '4':
-        print ('What would you do? 3=swing by the vines or 4=keep walking on the roads?')
+    while choose_action != '5' and choose_action != '6':
+        print ('What would you do? 5=swing by the vines or 6=keep walking on the roads?')
         break
     choose_action = raw_input('')
-        
+    
+    if choose_action == '5':
+            print ('you trapped at the gigantic spider web and its the end of your life')
+    elif choose_action == '6':
+            print('you trapped at the quicksand and you will die!')   
+    
     return choose_action
 
-def checkJungle(chosen_action):
-
-    
-    if chosen_action == "3":
-        print('you trapped at the gigantic spider web and its the end of your life')
-    
-    elif chosen_action == "4":
-        print('you trapped at the quicksand and you will die!')
-
-    return chosen_action
 
 
 def main():
