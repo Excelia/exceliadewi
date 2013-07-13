@@ -13,6 +13,7 @@
   
   Version 3.0 - * adding new sprites, tac nyan the enemy and nyan baloon.
                   both sprites scrolles in same direction with background and has different speed.
+                  and adding the music background that loops through the game
     """
     
 import pygame, random
