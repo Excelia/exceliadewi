@@ -10,8 +10,10 @@
                        nyan cat has to avoid combination of small and big asteroid and for the hard level
                        nyan cat has to avoid small, big asteroid and tac nyan (Nyan cat number one enemy).
                         
-  Version 2.0 - *     medium level has been completed, still has problem with start and end screen also
-                      the background music.
+  Version 2.0 - *     medium level has been completed. lives sprites have been added the function is
+                      it will gain lives 1 point everytime user can collect it. enemies added, now there
+                      are small and huge asteroids.
+                      Still has problem with start and end screen also the background music.
     """
     
 import pygame, random, sys
